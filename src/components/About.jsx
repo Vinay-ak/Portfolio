@@ -1,14 +1,13 @@
 
 
-
 const aboutItems = [
     {
       label: 'Project done',
-      number: 45
+      number: 4
     },
     {
-      label: 'Years of experience',
-      number: 10
+      label: 'Years of learning',
+      number: 2
     }
   ];
 
@@ -30,14 +29,14 @@ const About = () => {
 
                 <div className="flex flex-wrap items-center gap-4 md:gap-7">
                     {
-                        aboutItems.map(({ lable, number }, key) => (
+                        aboutItems.map(({ label, number }, key) => (
                             <div key={key}>
                                 <div className="flex items-center md:mb-2">
                                     <span className="text-2xl font-semibold md:text-4xl">{number}</span>
                                     <span className="text-sky-400 font-semibold md:text-3xl">+</span>
                                 </div>
 
-                                <p className="text-sm text-zinc-400">{lable}</p>
+                                <p className="text-sm text-zinc-400">{label}</p>
                             </div>
                         ))
                     }
