@@ -24,17 +24,17 @@ const works = [
     projectLink: "https://github.com/Vinay-ak/Fast-Charge",
   },
   {
-    imgSrc: "/images/project-4.jpg",
+    imgSrc: "/images/Project-4.png",
     title: "Personal Portfolio",
     tags: ["Web-Design", "ReactJS"],
     projectLink: "https://github.com/Vinay-ak/Portfolio",
-  },
-//   {
-//     imgSrc: "/images/project-5.jpg",
-//     title: "",
-//     tags: [""],
-//     projectLink: "",
-//   },
+  }
+// {
+//   imgSrc: "/images/Project-5.png",
+//   title: "",
+//   tags: [],
+//   projectLink: "",
+// }
 //   {
 //     imgSrc: "/images/project-6.jpg",
 //     title: "",

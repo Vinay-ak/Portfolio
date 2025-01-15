@@ -21,6 +21,7 @@ import App from './App.jsx'
 * CSS Link
 */
 import './index.css'
+import 'lenis/dist/lenis.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
