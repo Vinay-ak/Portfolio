@@ -36,14 +36,15 @@ const Hero = () => {
 
                 <div className='flex items-center gap-3'>
                    <ButtonPrimary 
+                    href=""
                     lable="Download CV"
                     icon="download"
                    />
 
                     <ButtonOutline
-                        herf="#about"
-                        lable="Scroll down" 
-                        icon="arrow_downward"
+                    herf={'#about'}
+                    lable="Scroll down" 
+                    icon="arrow_downward"
                     />
                 </div>
             </div>

@@ -60,10 +60,10 @@ const ButtonOutline = ({
     icon,
     classes,
 }) => {
-    if (href) {
+    if (!href) {
         return (
             <a 
-            href={href}
+            href={'#about'}
             target={target}
             className={"btn btn-outline " + classes}
             >
