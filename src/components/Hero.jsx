@@ -36,7 +36,7 @@ const Hero = () => {
 
                 <div className='flex items-center gap-3'>
                    <ButtonPrimary 
-                    href=""
+                    href="https://drive.google.com/uc?export=download&id=1kVyRpVqnzbnmUvTgKUfg9Ih9Tlk2OLn7"
                     lable="Download CV"
                     icon="download"
                    />
