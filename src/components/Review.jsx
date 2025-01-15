@@ -1,4 +1,16 @@
 
+// Modules
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+
+// Gsap Plugins
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
+
+
+
 // Components
 import ReviewCard from "./ReviewCard";
 
@@ -42,12 +54,25 @@ const reviews = [
   ];
 
 const Review = () => {
+
+  useGSAP(() => {
+    gsap.to('.scrub-slide', {
+      scrollTrigger: {
+        trigger: '.scrub-slide',
+        start: '-200% 80%',
+        end: '400% 80%',
+        scrub: true,
+      },
+      x: '-1000'
+    })
+  });
+
   return (
     <section 
     id="reviews overflow-hidden"
     className="section">
         <div className="container">
-            <h2 className="headline-2 mb-8">
+            <h2 className="headline-2 mb-8 reveal-up">
             What our customers say
             </h2>
 
