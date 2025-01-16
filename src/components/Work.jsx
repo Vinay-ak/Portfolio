@@ -9,7 +9,7 @@ const works = [
     imgSrc: "/images/Project-1.png",
     title: "College Event Portal",
     tags: ["MERN", "Web Development"],
-    projectLink: "https://github.com/Vinay-ak/College-Event-Portal",
+    projectLink: "https://college-event-portal.netlify.app",
   },
   {
     imgSrc: "/images/Project-2.png",
