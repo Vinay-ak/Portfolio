@@ -35,7 +35,7 @@ const socials = [
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/vinayak-shree'
+      href: 'https://www.linkedin.com/in/vinayakshree'
     },
     {
       label: 'Twitter X',
